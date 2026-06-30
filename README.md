@@ -34,31 +34,17 @@ The goal was to understand UART at the hardware register level, validate it thro
 
 UART was configured manually using the SCON, TMOD, and TH1 registers, with Timer 1 generating a 9600 baud rate. Transmission was handled through the SBUF register, polling the TI flag for completion.
 
-📸 **Output:**
-
-![Keil UART Output](<img width="1917" height="802" alt="Image" src="https://github.com/user-attachments/assets/933f679c-9c12-4eff-9b66-22d448187022" />)
-
----
 
 ### 2️⃣ Proteus — Circuit Simulation
 
 The HEX file compiled from the Keil project was imported into Proteus, where the AT89C51 circuit was simulated and a Virtual Terminal was connected to the TXD/RXD lines to verify correct transmission in real time.
 
-📸 **Output:**
-
-![Proteus UART Simulation](./UART_Proteus.png)
-
----
 
 ### 3️⃣ Tinkercad — Arduino UNO
 
 The same functionality was reimplemented using Arduino's built-in Serial library, drastically reducing the code required.
 
-📸 **Output:**
 
-![Tinkercad UART Output](./UART_tinker_CAD.png)
-
----
 
 ## 📊 Comparative Analysis: Assembly vs Arduino
 
