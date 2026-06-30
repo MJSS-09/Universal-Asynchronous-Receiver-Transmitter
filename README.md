@@ -36,7 +36,7 @@ UART was configured manually using the SCON, TMOD, and TH1 registers, with Timer
 
 📸 **Output:**
 
-![Keil UART Output](./UART_Keil.png)
+![Keil UART Output](<img width="1917" height="802" alt="Image" src="https://github.com/user-attachments/assets/933f679c-9c12-4eff-9b66-22d448187022" />)
 
 ---
 
