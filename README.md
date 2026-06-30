@@ -87,7 +87,7 @@ The same functionality was reimplemented using Arduino's built-in Serial library
 | `UART_Keil.png` | Keil µVision output (Assembly code & register states) |
 | `UART_Proteus.png` | Proteus simulation with Virtual Terminal output |
 | `UART_tinker_CAD.png` | Tinkercad Arduino UNO Serial Monitor output |
-| `UART_Communication_Project_Document.docx` | Full project documentation |
+| `UART_Doc.docx` | Full project documentation |
 
 ---
 
